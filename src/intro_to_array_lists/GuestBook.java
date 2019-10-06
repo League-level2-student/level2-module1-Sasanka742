@@ -45,7 +45,7 @@ public class GuestBook implements ActionListener {
 		}else if(e.getSource()== viewName){
 			for(int i=0;i<names.size();i++) {
 			String s = names.get(i);
-			System.out.println("Gues #"+i+":"+ s);
+			System.out.println("Guest #"+i+":"+ s);
 			}
 		}
 		
